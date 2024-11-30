@@ -1041,15 +1041,15 @@ const anzhiyu = {
 
     function dr_js_autofill_commentinfos() {
       var lauthor = [
-          "#author",
-          "input[name='comname']",
-          "#inpName",
-          "input[name='author']",
-          "#ds-dialog-name",
-          "#name",
-          "input[name='nick']",
-          "#comment_author",
-        ],
+        "#author",
+        "input[name='comname']",
+        "#inpName",
+        "input[name='author']",
+        "#ds-dialog-name",
+        "#name",
+        "input[name='nick']",
+        "#comment_author",
+      ],
         lmail = [
           "#mail",
           "#email",
@@ -1100,18 +1100,18 @@ const anzhiyu = {
 
   // 跳转开往
   totraveling: function () {
-    anzhiyu.snackbarShow(
-      "即将跳转到「开往」项目的成员博客，不保证跳转网站的安全性和可用性",
-      element => {
-        element.style.opacity = 0;
-        travellingsTimer && clearTimeout(travellingsTimer);
-      },
-      5000,
-      "取消"
-    );
+    // anzhiyu.snackbarShow(
+    //   "即将跳转到「开往」项目的成员博客，不保证跳转网站的安全性和可用性",
+    //   element => {
+    //     element.style.opacity = 0;
+    //     travellingsTimer && clearTimeout(travellingsTimer);
+    //   },
+    //   5000,
+    //   "取消"
+    // );
     travellingsTimer = setTimeout(function () {
-      window.open("https://www.travellings.cn/go.html", "_blank");
-    }, "5000");
+      window.open("https://www.travellings.cn/plain.html", "_blank");
+    }, "0");
   },
 
   // 工具函数替换字符串
