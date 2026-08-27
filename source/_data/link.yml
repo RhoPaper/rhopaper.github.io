@@ -34,7 +34,7 @@
       color: vip
       tag: web友
 
-- class_name: 推荐博客
+- class_name: 朋友们
   flink_style: telescopic
   hundredSuffix: ""
   link_list:
@@ -232,6 +232,10 @@
       avatar: https://haiy.space/uploads/images/2026/05/04ea5fddc86ae2ca.jpg
       descr: 我来互联网是当皇帝的
       siteshot: https://s1.imagehub.cc/images/2026/05/31/27fe5f559455087be5e42788309dc4b3.webp
+    - name: 秋云
+      link: https://qiuyun.pages.dev/
+      avatar: https://i0.hdslb.com/bfs/face/bf5afcf8ed4a5511735694256bec27b3efcc7195.jpg
+      siteshot: https://s1.imagehub.cc/images/2026/08/27/018b79242cfae256310009826f5c6e0a.webp
 
 - class_name: 框架
   flink_style: flexcard
